@@ -1,0 +1,101 @@
+body {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  background: #070B06;
+  color: #D9D9D9;
+  margin-bottom: 50px;
+  padding-top: 40px;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.page-wrapper {
+  padding: 0 10px;
+}
+
+@media (min-width: 820px) {
+  .page-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.profile {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.profile .profile__avatar {
+  width: 88px;
+  margin-bottom: 8px;
+}
+
+.profile .profile__name {
+  color: #5271FF;
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.profile .profile__user {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.links {
+}
+
+.links .links__item {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 16px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@media (max-width: 352px) {
+  .links .links__item {
+    font-size: 14px;
+  }
+}
+
+.links .links__item.--primary {
+  border: 2px solid #5271FF;
+}
+
+.links .links__item .links__item__badge {
+  position: absolute;
+  color: #070B06;
+  background: #38b6ff;
+  width: 89px;
+  top: 12px;
+  right: -21px;
+  transform: rotate(45deg);
+}
+
+.links .links__item .links__item__badge.--free {
+  background: #55FF52;
+}
+
+.footer {
+  height: 50px;
+}
+
+.footer .page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer .page-wrapper a {
+  margin: 0 8px;
+  font-size: 22px;
+}
