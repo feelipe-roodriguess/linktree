@@ -2,8 +2,8 @@ body {
   font-family: 'Roboto';
   font-size: 16px;
   font-weight: 400;
-  background: #b2b2b2;
-  color: #070B06;
+  background: #333333;
+  color: #FFFFFF;
   margin-bottom: 50px;
   padding-top: 40px;
 }
@@ -19,7 +19,7 @@ a {
 
 @media (min-width: 820px) {
   .page-wrapper {
-    max-width: 800px;
+    max-width: 400px;
     margin: 0 auto;
   }
 }
@@ -30,22 +30,23 @@ a {
 }
 
 .profile .profile__avatar {
-  width: 88px;
-  margin-bottom: 8px;
+  width: 120px;
+  margin-bottom: 16px;
   border-radius: 50%;
-  border: 2px solid #f83434;
-  padding: 2px;
+  /* border: 2px solid #38b6ff; */
+  /* padding: 2px; */
 }
 
 .profile .profile__name {
-  color: #070B06;
+  color: #38b6ff;
   margin-bottom: 4px;
   font-size: 22px;
 }
 
-.profile .profile__user {
+.profile .profile__message {
   font-size: 14px;
   font-weight: 300;
+  margin-bottom: 8px;
 }
 
 .text {
@@ -61,12 +62,19 @@ a {
 
 .text h2 {
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 24px;
   line-height: 1.1;
   font-weight: 600;
 }
 
 .links {
+}
+
+.links .links__title {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 
 .links .links__item {
@@ -75,10 +83,11 @@ a {
   padding: 16px;
   box-sizing: border-box;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  color: #333333;
 }
 
 @media (max-width: 352px) {
@@ -88,7 +97,7 @@ a {
 }
 
 .links .links__item.--primary {
-  background: #f83434;
+  background: #38b6ff;
   border-radius: 10px;
 }
 
